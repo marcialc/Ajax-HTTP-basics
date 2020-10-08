@@ -3,7 +3,6 @@ import React from 'react';
 import './Post.css';
 
 const Post = (props) => (
-    
     <article className="Post" onClick={props.clicked}>
         <h1>{props.title}</h1>
         <div className="Info">
@@ -11,5 +10,6 @@ const Post = (props) => (
         </div>
     </article>
 );
+
 
 export default Post;
